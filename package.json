@@ -2,6 +2,7 @@
   "name": "gc-utils",
   "version": "1.0.0",
   "main": "dist/index.js",
+  "description": "常用的方法和react hook合集",
   "files": [
     "dist"
   ],
@@ -11,6 +12,9 @@
     "build": "cross-env NODE_ENV=production npx webpack"
   },
   "devDependencies": {
+    "@types/js-cookie": "^3.0.2",
+    "@types/react": "^18.0.20",
+    "@types/react-dom": "^18.0.6",
     "clean-webpack-plugin": "^4.0.0",
     "cross-env": "^7.0.3",
     "html-webpack-plugin": "^5.5.0",
@@ -21,10 +25,25 @@
     "webpack-dev-server": "^4.11.0"
   },
   "peerDependencies": {
+    "js-cookie": ">=3.0.0",
     "react": ">=16.9.0",
     "react-dom": ">=16.9.0"
   },
   "keywords": [
-    "utils"
-  ]
+    "utils",
+    "hook",
+    "common"
+  ],
+  "dependencies": {
+    "js-cookie": "^3.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cheng733/gc-utils"
+  },
+  "bugs": {
+    "url": "https://github.com/cheng733/gc-utils/issues"
+  }
 }

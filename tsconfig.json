@@ -4,14 +4,17 @@
       "outDir": "./dist",
       "module": "CommonJS",
       "target": "ES2015", 
-      "jsx": "react", 
-      "declaration": true,   
+      "jsx": "react",
+      "jsxFactory": "React.createElement",
+      "jsxFragmentFactory": "React.Fragment", 
+      "declaration": true,
+      "moduleResolution": "node",   
       "removeComments": true,
+      "esModuleInterop" : true,
+      "noImplicitAny":true
     },
     "include": [
       "src/**/*",
     ],
-    "exclude": [
-      "node_modules",
-    ]
+    "exclude": ["node_modules", "lib", "es"]
   }

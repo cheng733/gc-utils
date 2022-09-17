@@ -54,10 +54,11 @@ if (process.env.NODE_ENV === 'development') {
         devtool: 'source-map',
         externals: {
             'react': 'react',
-            'react-dom': 'react-dom'
+            'react-dom': 'react-dom',
+            'js-cookie':'js-cookie'
           },
           plugins: [
-            new CleanWebpackPlugin(),    // 编译之前清空 /dist
+            new CleanWebpackPlugin(),
           ],
         };
 }
