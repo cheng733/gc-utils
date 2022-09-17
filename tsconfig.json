@@ -11,7 +11,7 @@
       "moduleResolution": "node",   
       "removeComments": true,
       "esModuleInterop" : true,
-      "noImplicitAny":true
+      // "noImplicitAny":true
     },
     "include": [
       "src/**/*",
