@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { isObject } from '.';
+import { isObject } from '../utils';
 
 export interface NetworkState {
   since?: Date;
