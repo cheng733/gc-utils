@@ -42,12 +42,5 @@
     "js-cookie": "^3.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cheng733/gc-utils"
-  },
-  "bugs": {
-    "url": "https://github.com/cheng733/gc-utils/issues"
   }
 }
