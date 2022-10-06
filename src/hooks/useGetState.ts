@@ -20,5 +20,4 @@ function useGetState<S>(initialState?: S) {
 
   return [state, setState, getState];
 }
-
-export default useGetState;
+export default useGetState

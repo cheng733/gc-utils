@@ -1,5 +1,5 @@
-export * from './useLockFn'
-export * from './useNetwork'
-export * from './useGetState'
-export * from './useUpdate'
-
+export {default as  useLockFn} from './useLockFn'
+export {default as  useNetwork} from './useNetwork'
+export {default as  useGetState} from './useGetState'
+export {default as  useUpdate} from './useUpdate'
+export {default as  useMemoizedFn} from './useMemoizedFn'
