@@ -9,7 +9,7 @@ export * from './storage'
 export * from './time'
 export * from './dom'
 export * from './classnames'
-
+export * from './withNativeProps'
 
 export const isObject = (value: unknown): value is Record<any, any> =>
   value !== null && typeof value === 'object';
