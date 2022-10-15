@@ -59,4 +59,8 @@ const trim = function (string) {
     oA.click()
     oA.remove() // 下载之后把创建的元素删除
   }
-  
+  //解析字符串中一个或者多个script为数组形式
+export const scriptParse = (str:string)=>{
+  if(typeof str !== 'string')  throw '不是字符串'
+  return str.match(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi)
+} 

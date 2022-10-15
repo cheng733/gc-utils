@@ -13,6 +13,7 @@
     "test": "jest"
   },
   "devDependencies": {
+    "@thenja/html-parser": "^1.1.3",
     "@types/jest": "^29.0.3",
     "@types/js-cookie": "^3.0.2",
     "@types/react": "^18.0.20",

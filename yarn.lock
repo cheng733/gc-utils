@@ -583,6 +583,11 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@thenja/html-parser@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@thenja/html-parser/-/html-parser-1.1.3.tgz#05cc838bd73ad93377610f5aee4ea8e37dcd82bf"
+  integrity sha512-LJCzhtguOKN/fdc1xUJu8Ox25rVW9SWcuyn0j5Icd8swCmUPQdNY1mOsBr64lYz4yAmPHHZt+Bm5UNKjfFPjOw==
+
 "@types/babel__core@^7.1.14":
   version "7.1.19"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.19.tgz#7b497495b7d1b4812bdb9d02804d0576f43ee460"
